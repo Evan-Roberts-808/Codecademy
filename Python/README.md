@@ -1,0 +1,2 @@
+<img src="Certificates-of-Completion/Learn-Python-3.png" width="600" height="500" alt="Learn Python 3 Certificate">
+<img src="Certificates-of-Completion/Learn-Data-Structures-and-Algorithms-with-Python-CoC.png" width="600" height="500" alt="Learn DAA with Python Certificate">

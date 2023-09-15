@@ -1,1 +1,0 @@
-![Alt text](Learn-Intermediate-Java.png)

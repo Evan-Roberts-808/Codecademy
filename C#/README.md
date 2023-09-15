@@ -1,0 +1,1 @@
+<img src="Certificates-of-Completion/Learn-CSharp.png" width="600" height="500" alt="Learn C# Certificate">

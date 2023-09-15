@@ -1,1 +1,0 @@
-![Alt text](Create-REST-APIs-with-Spring-and-Java.png)
