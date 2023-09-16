@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#main-header {
+    font-size: 8vw;
+    font-family: 'Courier New', monospace;
+    color: Crimson;
+}
+
+#main-img {
+    height: 40%;
+    width: 40%;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+#menu-header {
+    font-size: 7.5vw;
+    font-family: 'Courier New', monospace;
+    color: Blue;
+    letter-spacing: 10px;
+}
+
+.menu-subheaders {
+    font-size: 5vw;
+    font-family: Arial, sans-serif;
+    color: Sienna;
+}
+
+.menu-item {
+    font-size: 3vw;
+    font-family: Arial, sans-serif;
+    color: Darkslategrey
+}
+
+.item-price {
+    font-size: 2.5vw;
+    margin-top: -20px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: Slategrey;
+}
