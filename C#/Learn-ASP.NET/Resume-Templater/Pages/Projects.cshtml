@@ -1,0 +1,46 @@
+@page
+<!-- Projects.cshtml -->
+
+<!-- Add model directive below -->
+@model ProjectsModel
+@{
+  // Add ViewData Title below
+  ViewData["Title"] = "Projects";
+}
+
+<div class="jumbotron jumbotron-fluid jumbotron-container text-white project-jumbotron">
+	<div class="container-fluid jumbotron-content">
+		<p class="text-center mb-4 jumbotron-header">Projects</p>
+	</div>
+</div>
+
+<div class="container">
+		<div class="project-container">
+      @foreach(Project project in @Model.Projects)
+      {
+        if (project.Year > 2017)
+        {
+			<h4 class="project-title general-header">
+        @(project.Title)
+        <!--  Project Title -->
+      </h4>
+			<p class="project-year general-header">
+        @(project.Year)
+        <!--  Project Year -->
+      </p>
+			<p class="project-description general-content">
+        @(project.Description)
+        <!--  Project Description -->
+      </p>
+        }
+      }
+		</div>
+  
+  <br>
+	<h4 class="general-header">Portfolio</h4>
+	<p class="general-content">
+    <!-- Render partial for Link below -->
+    For more information regarding my experience, please refer to my <partial name="_Links" for="@Model.GithubUsername"/>
+	</p>
+	<br>
+</div>

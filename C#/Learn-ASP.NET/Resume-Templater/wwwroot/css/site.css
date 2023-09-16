@@ -1,0 +1,145 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+.jumbotron-container {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+.jumbotron-container::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(81, 47, 30, 0.5);
+}
+
+.project-jumbotron {
+	background-image: url(https://imgur.com/8ajtvMC.png);
+}
+
+.resume-jumbotron {
+	background-image: url(https://imgur.com/RT3DZC4.png);
+}
+
+.jumbotron-content {
+	position: relative;
+}
+
+.jumbotron-header {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.general-header {
+	color: #333333;
+}
+
+.general-content {
+	color: #5A5A5A;
+}
+
+.project-container {
+	padding-bottom: 35px;
+}
+
+.project-title {
+	padding-bottom: 10px;
+}
+
+.project-year {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.project-description {
+	padding-bottom: 2px;
+}
+
+.technologies {
+	color: #5A5A5A;
+}
+
+.list-group {
+	padding-left: 12pt;
+}
+
+.list-item {
+	padding: 3px 0;
+}
+
+.resume-content {
+	padding: 15px 0;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
