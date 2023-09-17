@@ -1,0 +1,141 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/*
+    Custom CSS
+*/
+
+body {
+  font-family: 'Nunito-Sans', 'Helvectica', sans-serif
+}
+
+nav.navbar,
+a.btn,
+button.btn {
+  background-color: #417F43 !important;
+}
+
+img#cart {
+  width: 2rem;
+}
+
+img#green-cart {
+  width: 2.5rem;
+}
+
+h1#store-name {
+  color: #417F43;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+div#food-container {
+  width: 95%;
+  margin: auto;
+}
+
+div.food-item {
+  margin-bottom: 0.5rem;
+  border: #C6B49D solid 1px;
+}
+
+img.food-item-image {
+  width: 60px;
+}
+
+p.food-item-info {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+a.btn,
+button.btn {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+
+hr {
+  border-color: #C6B49D;
+}
+
+p#display-price {
+  font-size: 1.25rem;
+}
+
+img#big-food-icon {
+  max-width: 200px;
+}
+
+input#quantity {
+  border: #C6B49D solid 1px;
+}
