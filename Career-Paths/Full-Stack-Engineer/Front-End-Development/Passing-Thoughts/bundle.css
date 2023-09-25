@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-size: 16pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  input,
+  button {
+    font: inherit;
+    box-sizing: border-box;
+  }
+  
+  input[type='submit'],
+  button {
+    cursor: pointer;
+  }
+  
+  ._style__App {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 95%;
+  }
+  
+  ._style__App h1:before {
+    content: '\1F4AD';
+    margin-right: 0.5em;
+  }
+  
+  ._style__AddThoughtForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ._style__AddThoughtForm input {
+    padding: 1.5rem;
+    border: 1px solid #666;
+    border-radius: 3px;
+  }
+  
+  ._style__AddThoughtForm input[type='text'] {
+    flex-grow: 1;
+    margin-right: 0.5rem;
+  }
+  
+  ._style__thoughts {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ._style__Thought {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    background-color: #eee;
+  }
+  
+  ._style__Thought ._style__remove-button {
+    font-size: 80%;
+    float: right;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+  }
+  
+  ._style__Thought ._style__remove-button:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  
