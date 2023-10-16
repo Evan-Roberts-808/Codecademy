@@ -1,0 +1,69 @@
+<html><head><style>html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  /*
+   * Table stuff
+   */
+  
+  .table-container {
+    width: max-content;
+    min-width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .scroll-container {
+    overflow-y: auto;
+    overflow-x: none;
+    max-height: 14rem;
+    border: 1px solid #3E3E40;
+  }
+  
+  table {
+    font-family: monospace;
+    white-space: nowrap;
+    padding: 0.625rem;
+    width: 100%;
+    overflow-x: none;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.25rem;
+    background-color: transparent;
+  }
+  
+  tr {
+    height: 1.875rem;
+    font-size: 0.8125rem;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #E9EAEA;
+  }
+  
+  tr:nth-child(even),
+  th {
+    background-color: #FFFFFF;
+  }
+  
+  /*
+   * Chart stuff
+   */
+  
+  svg {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+  </style></head><body><div class="table-container"><div class="scroll-container"><table><tr><th></th><th>location</th><th>product_type</th><th>product_description</th><th>quantity</th><th>price</th><th>in_stock</th><th>total_value</th><th>full_description</th></tr><tr><td>0</td><td>Staten Island</td><td>seeds</td><td>daisy</td><td>4</td><td>6.99</td><td>True</td><td>27.96</td><td>seeds - daisy</td></tr><tr><td>1</td><td>Staten Island</td><td>seeds</td><td>calla lily</td><td>46</td><td>19.99</td><td>True</td><td>919.54</td><td>seeds - calla lily</td></tr><tr><td>2</td><td>Staten Island</td><td>seeds</td><td>tomato</td><td>85</td><td>13.99</td><td>True</td><td>1189.15</td><td>seeds - tomato</td></tr><tr><td>3</td><td>Staten Island</td><td>garden tools</td><td>rake</td><td>4</td><td>13.99</td><td>True</td><td>55.96</td><td>garden tools - rake</td></tr><tr><td>4</td><td>Staten Island</td><td>garden tools</td><td>wheelbarrow</td><td>0</td><td>89.99</td><td>False</td><td>0.0</td><td>garden tools - wheelbarrow</td></tr><tr><td>5</td><td>Staten Island</td><td>garden tools</td><td>spade</td><td>93</td><td>19.99</td><td>True</td><td>1859.07</td><td>garden tools - spade</td></tr><tr><td>6</td><td>Staten Island</td><td>pest_control</td><td>insect killer</td><td>74</td><td>12.99</td><td>True</td><td>961.26</td><td>pest_control - insect killer</td></tr><tr><td>7</td><td>Staten Island</td><td>pest_control</td><td>weed killer</td><td>8</td><td>23.99</td><td>True</td><td>191.92</td><td>pest_control - weed killer</td></tr><tr><td>8</td><td>Staten Island</td><td>planter</td><td>20 inch terracotta planter</td><td>0</td><td>17.99</td><td>False</td><td>0.0</td><td>planter - 20 inch terracotta planter</td></tr><tr><td>9</td><td>Staten Island</td><td>planter</td><td>8 inch plastic planter</td><td>53</td><td>3.99</td><td>True</td><td>211.47</td><td>planter - 8 inch plastic planter</td></tr><tr><td>10</td><td>Brooklyn</td><td>seeds</td><td>daisy</td><td>50</td><td>6.99</td><td>True</td><td>349.5</td><td>seeds - daisy</td></tr><tr><td>11</td><td>Brooklyn</td><td>seeds</td><td>calla lily</td><td>0</td><td>19.99</td><td>False</td><td>0.0</td><td>seeds - calla lily</td></tr><tr><td>12</td><td>Brooklyn</td><td>seeds</td><td>tomato</td><td>0</td><td>13.99</td><td>False</td><td>0.0</td><td>seeds - tomato</td></tr><tr><td>13</td><td>Brooklyn</td><td>garden tools</td><td>rake</td><td>15</td><td>13.99</td><td>True</td><td>209.85</td><td>garden tools - rake</td></tr><tr><td>14</td><td>Brooklyn</td><td>garden tools</td><td>wheelbarrow</td><td>82</td><td>89.99</td><td>True</td><td>7379.179999999999</td><td>garden tools - wheelbarrow</td></tr><tr><td>15</td><td>Brooklyn</td><td>garden tools</td><td>spade</td><td>36</td><td>19.99</td><td>True</td><td>719.64</td><td>garden tools - spade</td></tr><tr><td>16</td><td>Brooklyn</td><td>pest_control</td><td>insect killer</td><td>80</td><td>12.99</td><td>True</td><td>1039.2</td><td>pest_control - insect killer</td></tr><tr><td>17</td><td>Brooklyn</td><td>pest_control</td><td>weed killer</td><td>76</td><td>23.99</td><td>True</td><td>1823.2399999999998</td><td>pest_control - weed killer</td></tr><tr><td>18</td><td>Brooklyn</td><td>planter</td><td>20 inch terracotta planter</td><td>5</td><td>17.99</td><td>True</td><td>89.94999999999999</td><td>planter - 20 inch terracotta planter</td></tr><tr><td>19</td><td>Brooklyn</td><td>planter</td><td>8 inch plastic planter</td><td>26</td><td>3.99</td><td>True</td><td>103.74000000000001</td><td>planter - 8 inch plastic planter</td></tr><tr><td>20</td><td>Queens</td><td>seeds</td><td>daisy</td><td>57</td><td>6.99</td><td>True</td><td>398.43</td><td>seeds - daisy</td></tr><tr><td>21</td><td>Queens</td><td>seeds</td><td>calla lily</td><td>95</td><td>19.99</td><td>True</td><td>1899.05</td><td>seeds - calla lily</td></tr><tr><td>22</td><td>Queens</td><td>seeds</td><td>tomato</td><td>45</td><td>13.99</td><td>True</td><td>629.55</td><td>seeds - tomato</td></tr><tr><td>23</td><td>Queens</td><td>garden tools</td><td>rake</td><td>21</td><td>13.99</td><td>True</td><td>293.79</td><td>garden tools - rake</td></tr><tr><td>24</td><td>Queens</td><td>garden tools</td><td>wheelbarrow</td><td>98</td><td>89.99</td><td>True</td><td>8819.019999999999</td><td>garden tools - wheelbarrow</td></tr><tr><td>25</td><td>Queens</td><td>garden tools</td><td>spade</td><td>26</td><td>19.99</td><td>True</td><td>519.74</td><td>garden tools - spade</td></tr><tr><td>26</td><td>Queens</td><td>pest_control</td><td>insect killer</td><td>0</td><td>12.99</td><td>False</td><td>0.0</td><td>pest_control - insect killer</td></tr><tr><td>27</td><td>Queens</td><td>pest_control</td><td>weed killer</td><td>16</td><td>23.99</td><td>True</td><td>383.84</td><td>pest_control - weed killer</td></tr><tr><td>28</td><td>Queens</td><td>planter</td><td>20 inch terracotta planter</td><td>87</td><td>17.99</td><td>True</td><td>1565.1299999999999</td><td>planter - 20 inch terracotta planter</td></tr></table></div></div></body></html>
