@@ -2,6 +2,7 @@ A collection of all projects / courses / skill paths, I've worked on through Cod
 Some assignments may be repeated across courses / skill paths and will not be pushed more than once
 
 Languages Covered
+
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -10,9 +11,11 @@ Languages Covered
 <li>Python</li>
 <li>Java</li>
 <li>C#</li>
+<li>PHP</li>
 </ul>
 
 Technologies Covered
+
 <ul>
 <li>React</li>
 <li>Express</li>
